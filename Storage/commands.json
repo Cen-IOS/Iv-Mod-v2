@@ -1,0 +1,75 @@
+{
+    "Help": {
+        "name":"Help",
+        "group":"User",
+        "desc":"Display a list of commands/danh sách các lệnh được thêm trong bot",
+        "usage":"help [group OR command/nhóm hoặc lệnh]"
+    },
+    "Hook": {
+        "name":"Hook",
+        "group":"User",
+        "desc":"Return a hook in the channel/trả lời ẩn danh",
+        "usage":"hook <title>,<description>,[color],[avatarURL]"
+    },
+    "Weather": {
+        "name":"Weather",
+        "group":"User",
+        "desc":"Return the weather in the channel/gửi thông tin thời tiết vào channel",
+        "usage":"weather <location>"
+    },
+    "Purge": {
+        "name":"Purge",
+        "group":"Moderator",
+        "desc":"Clears a specified number of message/Xóa một số lượng thông báo cụ thể",
+        "usage":"purge <message>"
+    },
+    "Gpx": {
+        "name":"Gpx",
+        "group":"User",
+        "desc":"Update liên tục gpx cho team",
+        "usage":"help <tên gpx>"
+    },
+    "Danmak Gpx": {
+        "name":"Danmak Gpx",
+        "group":"Danmak Gpx",
+        "desc":"Link :[Download](https://cdn.discordapp.com/attachments/410835998348673025/410850271518916610/dan_mach.gpx) => [google map](https://www.google.com/maps/place/55%C2%B039'45.7%22N+12%C2%B033'40.6%22E/@55.662695,12.5590863,17z/data=!4m5!3m4!1s0x0:0x0!8m2!3d55.662695!4d12.561275)",
+        "usage":"help <tên Gpx>"
+    },
+    "Pier 39": {
+        "name":"Pier 39",
+        "group":"Pier 39",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/427438511637921795/Pier.txt) => [Google Map](https://www.google.com/maps/place/37%C2%B048'26.3%22N+122%C2%B025'42.7%22W/@37.8072982,-122.4307205,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.8072982!4d-122.4285318)",
+        "usage":"help <tên Gpx>"
+    },
+    "San Francisco Gpx": {
+        "name":"San Francisco Gpx",
+        "group":"San Francisco Gpx",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/427446981556961281/San_Francisco.txt) => [Google Map](https://www.google.com/maps/place/37%C2%B047'14.9%22N+122%C2%B024'27.7%22W/@37.78746,-122.4098887,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.78746!4d-122.4077)",
+        "usage":"help <tên Gpx>"
+    },
+    "Taipei Gpx": {
+        "name":"Taipei Gpx",
+        "group":"Taipei Gpx",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/427122036360609803/Paris.txt) => [Google Map](https://www.google.com/maps/place/48%C2%B053'26.6%22N+2%C2%B014'16.2%22E/@48.890717,2.2356483,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d48.890717!4d2.237837)",
+        "usage":"help <tên Gpx>"
+    },
+    "Pier 39": {
+        "name":"Pier 39",
+        "group":"Pier 39",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/427120431456190476/Taipei.txt) => [Google Map](https://www.google.com/maps/place/25%C2%B001'46.7%22N+121%C2%B032'08.7%22E/@25.02964,121.5335513,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d25.02964!4d121.53574)",
+        "usage":"help <tên Gpx>"
+    },
+    "Seoul Gpx": {
+        "name":"Seoul Gpx",
+        "group":"Seoul Gpx",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/427115250429591585/SeouL.txt) => [Google Map](https://www.google.com/maps/place/37%C2%B031'06.4%22N+127%C2%B007'16.2%22E/@37.51844,127.1189713,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.51844!4d127.12116)",
+        "usage":"help <tên Gpx>"
+    },
+    "Germany Gpx Admin": {
+        "name":"Germany Gpx Admin",
+        "group":"Germany Gpx Admin",
+        "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/414083408080142357/test_ger.txt) => [Google Map](https://www.google.cz/maps/place/51%C2%B029'31.2%22N+6%C2%B052'49.4%22E/@51.491993,6.8781873,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d51.491993!4d6.880376)",
+        "usage":"help <tên Gpx>"
+    }
+
+}
