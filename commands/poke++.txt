@@ -1,0 +1,33 @@
+@everyone 
+Hi All,
+
+Well, that was difficult but we are pleased to announce that PokeGo++ 2.0 has been updated!
+Please note that there are some massive changes with this release as we anticipated.
+
+1.  32bit devices are no longer supported - iPhone 5s is the minimum supported device.
+
+Jailbroken Users:
+We have rebranded our repo to "Global++ Tweaks" in your list.
+For users running jailbreaks < iOS11, there are new requirements to ensure you can use Pokemon Go.
+Instructions (iOS 9 - iOS 10):
+Please Add the repo https://ryleyangus.com/repo/ in Cydia. Sources tab > "Edit" at the top right. "Add" at the top left. 
+Upgrade ++ Tweak.
+This will also add Liberty Jailbreak bypass to your phone under settings. Be sure to enable Pokémon Go.
+xCon and PgPatch are not longer required and supported.
+
+Electra users, please update as normal. :arrow_up_small: is not required.
+
+:boom:Release Notes 2.0r-63 (0.95.3):boom:
+- Updated to latest Official App.
+- Adjusted cooldown timers....again
+
+Additional notes: 
+There are ALOT of bugs in this release. Please don't report any crashes until Niantic has the opportunity of releasing another version.
+We are seeing random crashes everywhere from accessing settings to viewing inventory to logging in. 
+
+
+https://download.pokego2.com/R63.ipa
+
+
+Happy Hunting!
+Global++ Tweaks
