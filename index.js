@@ -282,8 +282,8 @@ if (command === "iv") {
             }
 
 
-            embed.setFooter(`Hiện đang hiển thị các lệnh người dùng. Để xem một nhóm khác làm gõ ${prefix}help [group / command]`)
-            embed.setDescription(`**${commandsGotcha} lệnh được tìm thấy** - <> => bắt buộc, [] => ko bắt buộc`)
+            embed.setFooter(`Gotcha các lệnh người dùng. Để xem một nhóm khác làm gõ ${prefix}help [group / command]`)
+            embed.setDescription(`**${commandsGotcha} Cen Gotcha** - <> => bắt buộc, [] => ko bắt buộc`)
 
            
             message.author.send({embed})
@@ -353,8 +353,8 @@ if (command === "iv") {
                 }
 
                 
-                embed.setFooter(`Hiện đang hiển thị ${groupGotcha} lệnh. Để xem một nhóm khác làm ${prefix}help [group / command]`)
-                embed.setDescription(`**${commandsGotcha} lệnh được tìm thấy** - <> => có nghĩa là bắt buộc, [] => có nghĩa là tùy chọn .`)
+                embed.setFooter(`Gotcha ${groupGotcha} lệnh. Để xem một nhóm khác làm ${prefix}help [group / command]`)
+                embed.setDescription(`**${commandsGotcha} Cen Gotcha** - <> => bắt buộc, [] => ko bắt buộc.`)
 
                 
                 message.author.send({embed})
@@ -393,7 +393,7 @@ if (command === "iv") {
             // Lets post in chat if nothing is Gotcha!
             if (commandGotcha === '') {
                 message.channel.send({embed: {
-                    description:`**Không có nhóm hoặc lệnh \`${args.join(" ")}\` được tìm thấy có tiêu đề,bạn có thể gõ check.help để biết thêm chi tiết.**`,
+                    description:`**Không có nhóm hoặc lệnh \`${args.join(" ")}\` được tìm thấy có tiêu đề,bạn có thể gõ -help để biết thêm chi tiết.**`,
                     color: 0x00FF00,
                 }})
 
@@ -456,4 +456,4 @@ bot.on('guildMemberAdd', member => {
     var role = member.guild.roles.find('name', 'New Gotcha');
  
  });
- bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
