@@ -456,4 +456,4 @@ bot.on('guildMemberAdd', member => {
     var role = member.guild.roles.find('name', 'New Gotcha');
  
  });
- //bot.login(process.env.BOT_TOKEN);
+ bot.login(process.env.BOT_TOKEN);
