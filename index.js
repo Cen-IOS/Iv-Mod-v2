@@ -105,14 +105,13 @@ if (message.content.startsWith ('save')) {
     }
     fs.writeFile ('./msgs.json', JSON.stringify (bot.msgs, null,4), err => {
         if (err) throw err;
-        message.channel.send('message save');
+        message.channel.send ('Cảm Ơn Bạn ' + message.author + ' Đã Gửi Thông Tin Tới Cho ❥一 ϻя.Ƭ ✔  ')
     });
 }
 
     if (message.content.startsWith ('get')) {
         let _message = bot.msgs[message.author.username].message;
         message.channel.send('@everyone Gotcha' +  _message);
-        message.channel.send ('Cảm Ơn Bạn ' + message.author + ' Đã Gửi Thông Tin Tới Cho Cen Đẹp Troai ')
 
     }
 
