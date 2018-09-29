@@ -111,7 +111,7 @@ if (message.content.startsWith ('save')) {
 
     if (message.content.startsWith ('get')) {
         let _message = bot.msgs[message.author.username].message;
-        message.channel.send('@here =>>' +  _message);
+        message.channel.send('Catch @here =>>' +  _message);
 
     }
 
