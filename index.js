@@ -88,7 +88,7 @@ bot.on('message', message => {
 if (msg === 'POKE++' || msg === prefix + 'POKEGO2'){
     message.channel.send(pokeList)
 }
- if (msg === 'SPINDS' || msg === prefix + 'SPINDA'){
+ if (msg === 'SPINDA' || msg === prefix + 'SPINDA'){
     message.channel.send(Spinda)
 }
 if (msg === 'QUEST ABSOL' || msg === prefix + 'COOR QUEST'){
