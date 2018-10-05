@@ -7,6 +7,7 @@ const poke_db = require("./gen_name_cp_iv_raidboss_egg_quest.json");
 const commands = JSON.parse(fs.readFileSync('Storage/commands.json', 'utf8'));
 const pokeList = fs.readFileSync('commands/poke++.txt','utf8');
 const AbsolQuest = fs.readFileSync('commands/Absol.txt','utf8');
+const Spinda = fs.readFileSync('commands/Spinda.txt','utf8');
 const searchquest = fs.readFileSync('commands/Searchquest.txt','utf8');
 const welcome = fs.readFileSync('commands/welcome.txt','utf8');
 bot.msgs = require ('./msgs.json');
@@ -86,6 +87,9 @@ bot.on('message', message => {
 //poke++ 
 if (msg === 'POKE++' || msg === prefix + 'POKEGO2'){
     message.channel.send(pokeList)
+}
+ if (msg === 'Spinda' || msg === prefix + 'SPINDA'){
+    message.channel.send(Spinda)
 }
 if (msg === 'QUEST ABSOL' || msg === prefix + 'COOR QUEST'){
     message.channel.send(AbsolQuest)
