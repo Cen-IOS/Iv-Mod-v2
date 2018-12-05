@@ -179,8 +179,8 @@ if (command === "iv") {
             }
         }
         embed.setTimestamp(new Date());
-        embed.setAuthor("Gotcha Mod", "https://i.imgur.com/KEp12Kc.png");
-        embed.setFooter("Made by Gotcha Team ✔", "https://i.imgur.com/KEp12Kc.png");
+        embed.setAuthor("Gotcha Mod", "https://imgur.com/L7Q1Tjv");
+        embed.setFooter("Made by Gotcha Team ✔", "https://imgur.com/L7Q1Tjv");//https://i.imgur.com/KEp12Kc.png"
         embed.setThumbnail("https://media.giphy.com/media/wMlJSJaWbhVhm/giphy.gif");
         message.channel.send(embed);
     }
