@@ -180,7 +180,7 @@ if (command === "iv") {
         }
         embed.setTimestamp(new Date());
         embed.setAuthor("Gotcha Mod", "https://i.imgur.com/lIg16zN.png");
-        embed.setFooter("Made by Gotcha Team ✔", "https://i.imgur.com/lIg16zN.png");
+        embed.setFooter("Made by PoGO Connection", "https://i.imgur.com/lIg16zN.png");
         embed.setThumbnail("https://media.giphy.com/media/wMlJSJaWbhVhm/giphy.gif");
         message.channel.send(embed);
     }
