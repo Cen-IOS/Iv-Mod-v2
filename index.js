@@ -6,6 +6,7 @@ const fs = require('fs');
 const poke_db = require("./cen_base.json");
 const commands = JSON.parse(fs.readFileSync('Storage/commands.json', 'utf8'));
 const pokeList = fs.readFileSync('commands/poke++.txt','utf8');
+const Ispoofer = fs.readFileSync('commands/Ispoofer.txt','utf8');
 const AbsolQuest = fs.readFileSync('commands/Absol.txt','utf8');
 const Spinda = fs.readFileSync('commands/Spinda.txt','utf8');
 const searchquest = fs.readFileSync('commands/Searchquest.txt','utf8');
@@ -87,6 +88,9 @@ bot.on('message', message => {
 //poke++ 
 if (msg === 'POKE++' || msg === prefix + 'POKEGO2'){
     message.channel.send(pokeList)
+}
+ if (msg === 'ISFREE' || msg === prefix + 'ISPOOFER'){
+    message.channel.send(Ispoofer)
 }
  if (msg === 'SPINDA' || msg === prefix + 'SPINDA'){
     message.channel.send(Spinda)
