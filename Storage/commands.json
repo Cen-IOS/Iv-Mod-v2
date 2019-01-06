@@ -75,7 +75,7 @@
         "name":"List Check Iv",
         "group":"User",
         "desc":"Type .Iv <Pkm> <Cp> from Raid Boss, Egg , Quest (Ex:.iv deoattack 1xxx,.iv heatran 2145 vv....",
-        "usage":"help <tên Gpx>"
+        "usage":"help <List Check Iv>"
     }
 
 }
