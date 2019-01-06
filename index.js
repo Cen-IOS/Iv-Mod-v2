@@ -181,7 +181,7 @@ if (command === "iv") {
         embed.setTimestamp(new Date());
         embed.setAuthor("Gotcha Mod", "https://i.imgur.com/4DgyfEUs.png");
         embed.setFooter("Made by Gotcha Team !", "https://i.imgur.com/4DgyfEUs.png");
-        embed.setThumbnail("https://media.giphy.com/media/wMlJSJaWbhVhm/giphy.gif");
+        embed.setThumbnail("https://cdn.discordapp.com/attachments/367295988546666509/531445440697073664/Sun_11.gif");
         message.channel.send(embed);
     }
 }
