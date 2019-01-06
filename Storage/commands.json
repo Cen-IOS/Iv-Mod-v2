@@ -70,6 +70,12 @@
         "group":"Germany Gpx Admin",
         "desc":"Link:[Download](https://cdn.discordapp.com/attachments/391181042582683649/414083408080142357/test_ger.txt) => [Google Map](https://www.google.cz/maps/place/51%C2%B029'31.2%22N+6%C2%B052'49.4%22E/@51.491993,6.8781873,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d51.491993!4d6.880376)",
         "usage":"help <tên Gpx>"
+    },
+        "Check iv": {
+        "name":"List Check Iv",
+        "group":"User",
+        "desc":"Type .Iv <Pkm> <Cp> from Raid Boss, Egg , Quest (Ex:.iv deoattack 1xxx,.iv heatran 2145 vv....",
+        "usage":"help <tên Gpx>"
     }
 
 }
